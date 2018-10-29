@@ -1,0 +1,13 @@
+.home-container {
+    /* background-color: aqua; */
+    background-image: url("images/mainpage.gif");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+#intro-page{
+    width:100%;
+}
+body{
+    
+}
