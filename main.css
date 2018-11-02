@@ -1,10 +1,113 @@
 .home-container {
     /* background-color: aqua; */
-    background-image: url("images/mainpage.gif");
+    background-image: url("images/bubbles.gif");
     background-position: center;
     background-size: cover;
     width: 100%;
+    height: 98vh;
+    
 }
-#intro-page{
+
+.main-page{
     width:100%;
+}
+
+body {
+    /* margin: 0%; */
+    position: relative;
+  }
+
+#navbar {
+    position: fixed;
+    color: transparent;
+}
+
+.navbar.nav li a {
+    color: white;
+    font-size: 23px;
+    font: bold; 
+}
+
+.navbar.nav li a:hover {
+    color: deeppink;
+}
+
+#about-header p{
+    font-size: 30px;
+    font:bold;
+    text-align: center;
+    /* margin-left: 500px; */
+}
+.rounded-circle {
+    height: 400px;
+    width: 300px;
+}
+
+.col-6.col-sm-8 p {
+    font-size: 25px;
+}
+.container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#about {
+    /* padding-top: 70px; */
+    /* padding-bottom: 70px; */
+    width: 100%;
+    height: 100vh;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#skills-header h2{
+    text-align: center;
+    /* font-size: 25px; */
+    align-items: center;
+}
+
+.devicons i {
+    font-size: 170px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.typewriter {
+    padding-top: 200px;
+    margin-left: 300px;
+}
+
+.text-js {
+    opacity: 0;
+    color: whitesmoke;
+}
+
+.cursor{
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: -5px;
+    width: 2px;
+    /* Change colour of Cursor Here */
+    background-color: white;
+    z-index: 1;
+    animation: flash 0.5s none infinite alternate;
+}
+
+  @keyframes flash{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
 }
