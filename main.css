@@ -1,11 +1,10 @@
 .home-container {
     /* background-color: aqua; */
-    background-image: url("images/bubbles.gif");
+    background-image: url("images/lady.gif");
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 98vh;
-    
+    height: 98vh;    
 }
 
 .main-page{
@@ -15,16 +14,21 @@
 body {
     /* margin: 0%; */
     position: relative;
-  }
+}
 
-#navbar {
+.navbar-brand img{
+    margin-left: 10px;
+}
+.navbar {
     position: fixed;
-    color: transparent;
+    background-color: black;
+    padding: 2px !important;
+    height: 60px;
 }
 
 .navbar.nav li a {
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     font: bold; 
 }
 
@@ -32,11 +36,15 @@ body {
     color: deeppink;
 }
 
-#about-header p{
+
+/* About */
+
+#about-header {
     font-size: 30px;
     font:bold;
     text-align: center;
-    /* margin-left: 500px; */
+    margin-left: 400px;
+    text-decoration: underline;
 }
 .rounded-circle {
     height: 400px;
@@ -45,6 +53,7 @@ body {
 
 .col-6.col-sm-8 p {
     font-size: 25px;
+    padding-top: 25px;
 }
 .container {
     padding-top: 70px;
@@ -52,11 +61,23 @@ body {
 }
 
 #about {
-    /* padding-top: 70px; */
-    /* padding-bottom: 70px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
     width: 100%;
     height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
+
+.icon-image {
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+/* Skills */
+
 
 #skills {
     display: flex;
@@ -68,14 +89,20 @@ body {
     justify-content: center;
 }
 
-#skills-header h2{
+#skills-header {
+    font-size: 30px;
+    font:bold;
     text-align: center;
-    /* font-size: 25px; */
-    align-items: center;
+    margin-left: 400px;
+    text-decoration: underline;
+}
+
+.devicons {
+    margin-top: 25px;
 }
 
 .devicons i {
-    font-size: 170px;
+    font-size: 160px;
     margin: 10px;
     padding: 20px;
 }
@@ -110,4 +137,18 @@ body {
     100%{
       opacity: 0;
     }
+}
+
+
+/* Projects */
+
+.card {
+    margin: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+.btn {
+margin: 10px 10px 0 40px;
 }

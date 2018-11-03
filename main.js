@@ -9,7 +9,6 @@ $(document).ready(function(){
   $(document).scroll(function(){
     scroll_pos= $(this).scrollTop();
     if(scroll_pos > 610) {
-      $("nav a").css('color','black');
       $("nav li a:hover").css('color','deeppink')
     }
     else
