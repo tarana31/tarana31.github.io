@@ -15,7 +15,7 @@
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
     <div class="container-main">
-    <div class="home-container">
+        <div class="home-container">
             <nav id="navbar" class="navbar navbar-light fixed-top">
                 <a class="navbar-brand" href="#">
                     <img class="logo-img logo-white" src="images/logo.jpg" style="height:50px "/>
@@ -39,26 +39,21 @@
                     </ul>
             </nav>
     
-        <div class="main-page" id="home">
-            <div class="typewriter">
-                    <div class="type-js headline">
-                            <h1 class="text-js">Hi, I'm Tarana Patel.Web Developer based in Philadelphia.</h1>
-                            
-                          </div>
-            <h1>
-                <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Tarana", "I Love to Develop." ]'>
-                    <span class="wrap"></span>
-                </a>
-            </h1>
+            <div class="main-page" id="home">
+
+                <!-- <div class="type-js headline">
+                        <h1 class="text-js">Hi, I'm Tarana Patel.Web Developer based in Philadelphia.</h1>        
+                    </div> -->
+
+                <div class="glow" id="messenger"></div>
+
             </div>
         </div>
-    </div>
 
-    <div class="container-about" id="about">
+        <div class="container-about" id="about">
             <div class="container">
-                    <div id="about-header">About me</div>
+                <div id="about-header">About me</div>
                 
-
                 <div class="row">
                     <div class="col-6 col-sm-4">
                         <img class="rounded-circle" src="images/myimage.jpg"/>
@@ -83,10 +78,10 @@
         <div class="container-skills" id="skills">
             <div class="container">
                 <div class="row">
-                    <div id="skills-header">
-                        <h2>Tech Skills</h2>
+                    <div id="skills-header">Tech Skills
                     </div>
                 </div>
+                
                 <div class= "row">
                     <div class="devicons">
                         <i class="devicon-html5-plain-wordmark colored" id="skills-img"></i>
@@ -102,10 +97,13 @@
                 </div>    
             </div>
         </div>
+
         <div class="container-projects" id="portfolio">
             <div class="container">
                 <div class="row">
-                    <h2>Projects</h2>
+                    <div id="projects-header">
+                        Projects
+                    </div>
                 </div>
             
                 <div class="row">
@@ -143,6 +141,16 @@
                 </div>
             </div>
         </div>
+
+        <footer class="page-footer">
+            <div class="container">
+              <a href="https://www.linkedin.com/in/stevenrng/" target="_blank" title="Link with me!" class="waves-effect waves-light"><img src="images/icons/linkedin-icon.png" class="footer-icon"></a>
+              <a href="https://github.com/stevenryan" target="_blank" title="Check out my Github!" class="waves-effect waves-light"><img src="images/icons/github-icon.png" class="footer-icon"></a>
+              <a href="images/steven_ng_resume.pdf" target="_blank" title="Check out my resume!" class="waves-effect waves-light"><img src="images/icons/resume-icon.png" class="footer-icon"></a>
+              <p>© 2018 Tarana Patel</p>
+            </div>
+        </footer>
+      
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -151,8 +159,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="js/typewriter.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script type="text/javascript" src="js/typewriter.js"></script> -->
     <script type="text/javascript" src="js/scrollToSections.js"></script>
 </body>
 </html>
