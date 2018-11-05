@@ -147,6 +147,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 #projects-header {
     font-size: 40px;
     font:bold;
@@ -198,4 +199,14 @@ margin: 10px 10px 0 40px;
     /* font-size: 30px; */
     white-space: nowrap;
     text-shadow: 0 2px 2px rgba(#000, 0.9);
+  }
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
   }
